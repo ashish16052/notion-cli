@@ -6,3 +6,13 @@ Notion CLI is a command-line tool that allows you to interact with your Notion w
 1. Sign in: Authenticate with your Notion account using a token.
 2. Read/Write Pages: Read content from any Notion page or update page titles.
 3. Manage Databases: Query data from databases or insert new entries.
+
+# Installation
+```
+pip install -r requirements.txt
+```
+
+# Usage
+```
+python notion_cli/cli.py --help
+```

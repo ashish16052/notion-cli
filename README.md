@@ -9,10 +9,10 @@ Notion CLI is a command-line tool that allows you to interact with your Notion w
 
 # Installation
 ```
-pip install -r requirements.txt
+pip install -e .
 ```
 
 # Usage
 ```
-python notion_cli/cli.py --help
+notion-cli --help
 ```

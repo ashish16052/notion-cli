@@ -16,3 +16,12 @@ pip install -e .
 ```
 notion-cli --help
 ```
+
+### 1. Create Notion Integration Secret
+
+Start by creating your integration in the [integration’s settings page](https://www.notion.so/profile/integrations).
+
+### 2. Add Notion secret to notion-cli
+```
+notion-cli connect --secret <NOTION-INTEGRATION-SECRET>
+```
